@@ -1,0 +1,71 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.first {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:rgb(144, 240, 115);
+  padding: 40px;
+}
+
+.second {
+  left: 25%;
+  top: 30%;
+  padding: 80px;
+}
+
+h2 {
+  text-align: center;
+}
+
+#editButton {
+  background:rgb(251, 255, 0); border-color:rgb(255, 251, 0); 
+}
+
+#deleteButton {
+  background:red; border-color:rgb(255, 0, 0); 
+}
+
+#confirmButton {
+  background:rgb(30, 255, 0); border-color:rgb(21, 255, 0); 
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 32px;
+}
+
+th {
+  background-color: rgb(62, 59, 255);
+}
+
+td {
+  background-color: rgb(146, 164, 245);
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 28px;
+}
